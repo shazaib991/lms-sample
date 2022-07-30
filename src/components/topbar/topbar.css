@@ -1,0 +1,83 @@
+.topbar-container{
+    width: 100vw;
+    height: 80px;
+    box-shadow: 0px 2px 5px #0000001A;
+    display: flex;
+    align-items: center;
+    z-index: -1;
+}
+
+.topbar{
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px 0 270px;
+}
+
+.topbar-heading h1{
+    color: #74c3b3;
+    text-transform: capitalize;
+    font-size: 26px;
+}
+
+.topbar-status{
+    display: flex;
+    align-items: center;
+}
+
+.topbar-status i{
+    font-size: 22px;
+}
+
+.icon-container{
+    position: relative;
+}
+
+.icon-container i{
+    cursor: pointer;
+}
+
+.icon-notification{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    background-color: #74c3b3;
+}
+
+.icon-notification-bell{
+    right: 10px;
+}
+
+.topbar-line{
+    height: 28px;
+    width: 2px;
+    background-color: #d1d0e0;
+    margin: 0 30px 0 20px;
+}
+
+.topbar-profile{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.topbar-profile p{
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.topbar-profile i{
+    margin: 0 0 0 10px;
+    color: #74c3b3;
+}
+
+.topbar-login-status{
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+}

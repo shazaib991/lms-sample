@@ -1,0 +1,8 @@
+.sections-wrapper{
+    display: flex;
+    position: relative;
+}
+
+.mid-section-wrapper{
+    width: 100vw;
+}
