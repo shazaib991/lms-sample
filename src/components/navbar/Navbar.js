@@ -12,55 +12,55 @@ function Navbar() {
                 <ul className="navbar-list">
                     <li>
                         <a href="/">
-                            <i class="bi bi-laptop"></i>
+                            <i className="bi bi-laptop"></i>
                             <span>overview</span>
                         </a>
                     </li>
                     <li>
                         <a href="/">
-                            <i class="bi bi-mortarboard"></i>
+                            <i className="bi bi-mortarboard"></i>
                             <span>courses</span>
                         </a>
                     </li>
                     <li>
                         <a href="/">
-                            <i class="bi bi-calendar-event"></i>
+                            <i className="bi bi-calendar-event"></i>
                             <span>calendar</span>
                         </a>
                     </li>
                     <li className="navbar-active">
                         <a href="/">
-                            <i class="bi bi-people"></i>
+                            <i className="bi bi-people"></i>
                             <span>people</span>
                         </a>
                     </li>
                     <li>
                         <a href="/">
-                            <i class="bi bi-collection"></i>
+                            <i className="bi bi-collection"></i>
                             <span>library</span>
                         </a>
                     </li>
                     <li>
                         <a href="/">
-                            <i class="bi bi-graph-up-arrow"></i>
+                            <i className="bi bi-graph-up-arrow"></i>
                             <span>reports</span>
                         </a>
                     </li>
                     <li>
                         <a href="/">
-                            <i class="bi bi-bar-chart-line"></i>
+                            <i className="bi bi-bar-chart-line"></i>
                             <span>analytics</span>
                         </a>
                     </li>
                     <li>
                         <a href="/">
-                            <i class="bi bi-person-rolodex"></i>
+                            <i className="bi bi-person-rolodex"></i>
                             <span>coaching</span>
                         </a>
                     </li>
                     <li>
                         <a href="/">
-                            <i class="bi bi-sliders"></i>
+                            <i className="bi bi-sliders"></i>
                             <span>settings</span>
                         </a>
                     </li>
@@ -69,13 +69,13 @@ function Navbar() {
                 <ul className="navbar-list navbar-list-second">
                     <li>
                         <a href="/">
-                            <i class="bi bi-journal"></i>
+                            <i className="bi bi-journal"></i>
                             <span>manual</span>
                         </a>
                     </li>
                     <li>
                         <a href="/">
-                            <i class="bi bi-headset"></i>
+                            <i className="bi bi-headset"></i>
                             <span>support</span>
                         </a>
                     </li>

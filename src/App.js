@@ -2,14 +2,16 @@ import Navbar from "./components/navbar/Navbar";
 import Topbar from "./components/topbar/Topbar";
 import MainSection from "./components/mainSection/MainSection";
 import "./app.css";
+import Rightbar from "./components/rightbar/Rightbar";
 
 function App() {
     return (
-        <div className="sections-wrapper">
+        <div>
             <Navbar />
-            <div className="mid-section-wrapper">
-                <Topbar />
+            <Topbar />
+            <div className="sections-wrapper">
                 <MainSection />
+                <Rightbar />
             </div>
         </div>
     );

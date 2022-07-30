@@ -10,20 +10,20 @@ function Topbar() {
                 </div>
                 <div className="topbar-status">
                     <div className="icon-container">
-                        <i class="bi bi-envelope"></i>
+                        <i className="bi bi-envelope"></i>
                         <div className="icon-notification"></div>
                     </div>
                     <div className="icon-container">
-                        <i class="bi bi-megaphone"></i>
+                        <i className="bi bi-megaphone"></i>
                     </div>
                     <div className="icon-container">
-                        <i class="bi bi-bell"></i>
+                        <i className="bi bi-bell"></i>
                         <div className="icon-notification icon-notification-bell"></div>
                     </div>
                     <div className="topbar-line"></div>
                     <div className="topbar-profile">
                         <p>roberto</p>
-                        <i class="bi bi-person"></i>
+                        <i className="bi bi-person"></i>
                     </div>
                     <p className="topbar-login-status">sign out</p>
                 </div>

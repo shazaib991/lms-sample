@@ -1,3 +1,4 @@
+import { DateRange } from "@mui/icons-material";
 import React from "react";
 import "./mainSection.css";
 
@@ -318,6 +319,19 @@ function MainSection() {
                                 per page
                             </p>
                         </div>
+                    </div>
+                </div>
+                <hr className="main-section-hr" />
+                <div className="main-section-footer">
+                    <div className="main-section-footer-left">
+                        <p>Terms of Use</p>
+                        <p>Privacy</p>
+                    </div>
+                    <div className="main-section-footer-right">
+                        <p>
+                            &copy; {new Date().getFullYear()} -
+                            <span>infotopia solutions</span>
+                        </p>
                     </div>
                 </div>
             </div>
